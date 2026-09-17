@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Această adresă nu a fost găsită, așa că invitația s-ar putea să nu ajungă."</string>
+  <string name="error_account_creation_not_possible">"Crearea de conturi nu este disponibilă pe Orizon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Adresă personalizată a serverului de apeluri"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Setează o adresă personalizată pentru apeluri."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (blând)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Mesaje sigure și private."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Aplicație neacceptată"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s necesită o altă aplicație."</string>
+  <string name="screen_change_server_textfield_footer_register">"Conturile Orizon sunt create de administrator."</string>
+  <string name="screen_login_subtitle">"Mesageria care privește mai departe."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Deschide aplicația anterioară"</string>
+  <string name="screen_missing_key_backup_step_1">"Deschide aplicația anterioară pe dispozitivul tău"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Un server privat."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Mesaje sigure și private."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Apelurile nu acceptă dispozitive audio Bluetooth pe această versiune de Android. Alege alt dispozitiv audio."</string>
+  <string name="screen_incoming_call_subtitle_android">"Apel Orizon primit"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"ex. #nume-camera:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Apel neacceptat. Roagă persoana care sună să folosească aplicația Orizon."</string>
+  <string name="screen_onboarding_welcome_title">"Cuvintele tale, dincolo de orizont"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Bine ai venit pe %1$s — mesageria care privește mai departe."</string>
+  <string name="screen_onboarding_welcome_message">"Bine ai venit pe %1$s — mesageria care privește mai departe. Mesajele voastre rămân între voi."</string>
+  <string name="screen_login_error_invalid_user_id">"Aceasta nu este o adresă validă. Format așteptat: ‘@nume:4orizon.eu’"</string>
+</resources>

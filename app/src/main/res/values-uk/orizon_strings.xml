@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Цю адресу не знайдено, тож запрошення може не надійти."</string>
+  <string name="error_account_creation_not_possible">"Створення облікових записів у Orizon недоступне."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Власна адреса сервера дзвінків"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Задайте власну адресу для дзвінків."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (мʼякий)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Безпечні та приватні повідомлення."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Застосунок не підтримується"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s потребує іншого застосунку."</string>
+  <string name="screen_change_server_textfield_footer_register">"Облікові записи Orizon створює адміністратор."</string>
+  <string name="screen_login_subtitle">"Повідомлення, що дивляться далі."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Відкрити попередній застосунок"</string>
+  <string name="screen_missing_key_backup_step_1">"Відкрийте попередній застосунок на своєму пристрої"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Приватний сервер."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Безпечні та приватні повідомлення."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Дзвінки не підтримують аудіопристрої Bluetooth у цій версії Android. Виберіть інший аудіопристрій."</string>
+  <string name="screen_incoming_call_subtitle_android">"Вхідний дзвінок Orizon"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"напр. #nazva-kimnaty:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Дзвінок не підтримується. Попросіть співрозмовника скористатися застосунком Orizon."</string>
+  <string name="screen_onboarding_welcome_title">"Твої слова — за обрій"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Вітаємо у %1$s — повідомлення, що дивляться далі."</string>
+  <string name="screen_onboarding_welcome_message">"Вітаємо у %1$s — повідомлення, що дивляться далі. Ваші повідомлення залишаються між вами."</string>
+  <string name="screen_login_error_invalid_user_id">"Це не дійсна адреса. Очікуваний формат: ‘@imya:4orizon.eu’"</string>
+</resources>

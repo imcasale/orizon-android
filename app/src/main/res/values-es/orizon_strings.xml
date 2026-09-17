@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"No se ha encontrado esta dirección, así que puede que la invitación no llegue."</string>
+  <string name="error_account_creation_not_possible">"La creación de cuentas no está disponible en Orizon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Dirección personalizada del servidor de llamadas"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Define una dirección personalizada para las llamadas."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (suave)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Mensajería segura y privada."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Aplicación no compatible"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s requiere otra aplicación."</string>
+  <string name="screen_change_server_textfield_footer_register">"Las cuentas de Orizon las crea la administración."</string>
+  <string name="screen_login_subtitle">"La mensajería que mira más lejos."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Abrir la aplicación anterior"</string>
+  <string name="screen_missing_key_backup_step_1">"Abre la aplicación anterior en tu dispositivo"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Un servidor privado."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Mensajería segura y privada."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Las llamadas no admiten dispositivos de audio Bluetooth en esta versión de Android. Elige otro dispositivo de audio."</string>
+  <string name="screen_incoming_call_subtitle_android">"Llamada de Orizon entrante"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"p. ej. #nombre-de-sala:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Llamada no compatible. Pide a quien llama que use la aplicación Orizon."</string>
+  <string name="screen_onboarding_welcome_title">"Tus palabras, más allá del horizonte"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Te damos la bienvenida a %1$s, la mensajería que mira más lejos."</string>
+  <string name="screen_onboarding_welcome_message">"Te damos la bienvenida a %1$s, la mensajería que mira más lejos. Vuestros mensajes se quedan entre vosotros."</string>
+  <string name="screen_login_error_invalid_user_id">"Esta no es una dirección válida. Formato esperado: ‘@nombre:4orizon.eu’"</string>
+</resources>

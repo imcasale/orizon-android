@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Šis adresas nerastas, todėl kvietimas gali nepasiekti gavėjo."</string>
+  <string name="error_account_creation_not_possible">"Paskyrų kūrimas Orizon sistemoje negalimas."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Pasirinktinis skambučių serverio adresas"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Nustatykite pasirinktinį skambučių adresą."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (švelnus)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Saugios ir privačios žinutės."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Programėlė nepalaikoma"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s reikalinga kita programėlė."</string>
+  <string name="screen_change_server_textfield_footer_register">"Orizon paskyras kuria administratorius."</string>
+  <string name="screen_login_subtitle">"Žinutės, kurios mato toliau."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Atverti ankstesnę programėlę"</string>
+  <string name="screen_missing_key_backup_step_1">"Atverkite ankstesnę programėlę savo įrenginyje"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Privatus serveris."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Saugios ir privačios žinutės."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Skambučiai nepalaiko Bluetooth garso įrenginių šioje Android versijoje. Pasirinkite kitą garso įrenginį."</string>
+  <string name="screen_incoming_call_subtitle_android">"Įeinantis Orizon skambutis"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"pvz. #kambario-vardas:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Skambutis nepalaikomas. Paprašykite skambinančiojo naudoti Orizon programėlę."</string>
+  <string name="screen_onboarding_welcome_title">"Tavo žodžiai, už horizonto"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Sveiki atvykę į %1$s — žinutės, kurios mato toliau."</string>
+  <string name="screen_onboarding_welcome_message">"Sveiki atvykę į %1$s — žinutės, kurios mato toliau. Jūsų žinutės lieka tik tarp jūsų."</string>
+  <string name="screen_login_error_invalid_user_id">"Tai netinkamas adresas. Laukiamas formatas: ‘@vardas:4orizon.eu’"</string>
+</resources>

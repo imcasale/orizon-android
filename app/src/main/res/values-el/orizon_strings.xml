@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Αυτή η διεύθυνση δεν βρέθηκε, οπότε η πρόσκληση μπορεί να μην παραληφθεί."</string>
+  <string name="error_account_creation_not_possible">"Η δημιουργία λογαριασμού δεν είναι διαθέσιμη στο Orizon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Προσαρμοσμένη διεύθυνση διακομιστή κλήσεων"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Ορίστε προσαρμοσμένη διεύθυνση για τις κλήσεις."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (απαλό)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Ασφαλή και ιδιωτικά μηνύματα."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Η εφαρμογή δεν υποστηρίζεται"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"Το %1$s απαιτεί διαφορετική εφαρμογή."</string>
+  <string name="screen_change_server_textfield_footer_register">"Οι λογαριασμοί Orizon δημιουργούνται από τον διαχειριστή."</string>
+  <string name="screen_login_subtitle">"Μηνύματα που βλέπουν μακριά."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Άνοιγμα προηγούμενης εφαρμογής"</string>
+  <string name="screen_missing_key_backup_step_1">"Ανοίξτε την προηγούμενη εφαρμογή στη συσκευή σας"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Ένας ιδιωτικός διακομιστής."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Ασφαλή και ιδιωτικά μηνύματα."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Οι κλήσεις δεν υποστηρίζουν συσκευές ήχου Bluetooth σε αυτήν την έκδοση Android. Επιλέξτε άλλη συσκευή ήχου."</string>
+  <string name="screen_incoming_call_subtitle_android">"Εισερχόμενη κλήση Orizon"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"π.χ. #onoma-domatiou:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Μη υποστηριζόμενη κλήση. Ζητήστε να χρησιμοποιήσει την εφαρμογή Orizon."</string>
+  <string name="screen_onboarding_welcome_title">"Τα λόγια σου, πέρα από τον ορίζοντα"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Καλώς ήρθατε στο %1$s — μηνύματα που βλέπουν μακριά."</string>
+  <string name="screen_onboarding_welcome_message">"Καλώς ήρθατε στο %1$s — μηνύματα που βλέπουν μακριά. Τα μηνύματά σας μένουν μεταξύ σας."</string>
+  <string name="screen_login_error_invalid_user_id">"Αυτή δεν είναι έγκυρη διεύθυνση. Αναμενόμενη μορφή: ‘@onoma:4orizon.eu’"</string>
+</resources>

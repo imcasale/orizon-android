@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Cette adresse est introuvable, l\'invitation pourrait ne pas être reçue."</string>
+  <string name="error_account_creation_not_possible">"La création de compte n\'est pas disponible sur Orizon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Adresse personnalisée du serveur d\'appels"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Définir une adresse personnalisée pour les appels."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (doux)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Une messagerie sûre et privée."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Application non prise en charge"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s nécessite une autre application."</string>
+  <string name="screen_change_server_textfield_footer_register">"Les comptes Orizon sont créés par l\'administrateur."</string>
+  <string name="screen_login_subtitle">"La messagerie qui voit plus loin."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Ouvrir l\'application précédente"</string>
+  <string name="screen_missing_key_backup_step_1">"Ouvrez l\'application précédente sur votre appareil"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Un serveur privé."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Une messagerie sûre et privée."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Les appels ne prennent pas en charge les périphériques audio Bluetooth sur cette version d\'Android. Choisissez un autre périphérique audio."</string>
+  <string name="screen_incoming_call_subtitle_android">"Appel Orizon entrant"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"ex. #nom-du-salon:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Appel non pris en charge. Demandez à votre correspondant d\'utiliser l\'application Orizon."</string>
+  <string name="screen_onboarding_welcome_title">"Tes mots, par-delà l\'horizon"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Bienvenue sur %1$s, la messagerie qui voit plus loin."</string>
+  <string name="screen_onboarding_welcome_message">"Bienvenue sur %1$s, la messagerie qui voit plus loin. Vos messages restent entre vous."</string>
+  <string name="screen_login_error_invalid_user_id">"Ceci n\'est pas une adresse valide. Format attendu : ‘@nom:4orizon.eu’"</string>
+</resources>

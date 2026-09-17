@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Ova adresa nije pronađena pa pozivnica možda neće stići."</string>
+  <string name="error_account_creation_not_possible">"Otvaranje računa nije dostupno na Orizonu."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Prilagođena adresa poslužitelja za pozive"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Postavi prilagođenu adresu za pozive."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (tiho)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Sigurne i privatne poruke."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Aplikacija nije podržana"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s zahtijeva drugu aplikaciju."</string>
+  <string name="screen_change_server_textfield_footer_register">"Orizon račune otvara administrator."</string>
+  <string name="screen_login_subtitle">"Poruke koje gledaju dalje."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Otvori prethodnu aplikaciju"</string>
+  <string name="screen_missing_key_backup_step_1">"Otvorite prethodnu aplikaciju na uređaju"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Privatni poslužitelj."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Sigurne i privatne poruke."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Pozivi ne podržavaju Bluetooth audiouređaje u ovoj verziji Androida. Odaberite drugi audiouređaj."</string>
+  <string name="screen_incoming_call_subtitle_android">"Dolazni Orizon poziv"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"npr. #naziv-sobe:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Poziv nije podržan. Zamolite sugovornika da koristi aplikaciju Orizon."</string>
+  <string name="screen_onboarding_welcome_title">"Tvoje riječi, preko horizonta"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Dobrodošli u %1$s — poruke koje gledaju dalje."</string>
+  <string name="screen_onboarding_welcome_message">"Dobrodošli u %1$s — poruke koje gledaju dalje. Vaše poruke ostaju među vama."</string>
+  <string name="screen_login_error_invalid_user_id">"Ovo nije valjana adresa. Očekivani oblik: ‘@ime:4orizon.eu’"</string>
+</resources>

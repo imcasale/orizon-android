@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Táto adresa sa nenašla, pozvánka preto nemusí doraziť."</string>
+  <string name="error_account_creation_not_possible">"Vytváranie účtov nie je v Orizone dostupné."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Vlastná adresa servera pre hovory"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Nastavte vlastnú adresu pre hovory."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (jemný)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Bezpečné a súkromné správy."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Aplikácia nie je podporovaná"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s vyžaduje inú aplikáciu."</string>
+  <string name="screen_change_server_textfield_footer_register">"Účty Orizon vytvára správca."</string>
+  <string name="screen_login_subtitle">"Správy, ktoré vidia ďalej."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Otvoriť predchádzajúcu aplikáciu"</string>
+  <string name="screen_missing_key_backup_step_1">"Otvorte v zariadení predchádzajúcu aplikáciu"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Súkromný server."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Bezpečné a súkromné správy."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Hovory v tejto verzii Androidu nepodporujú zvukové zariadenia Bluetooth. Vyberte iné zariadenie."</string>
+  <string name="screen_incoming_call_subtitle_android">"Prichádzajúci hovor Orizon"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"napr. #nazov-miestnosti:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Nepodporovaný hovor. Požiadajte volajúceho, aby použil aplikáciu Orizon."</string>
+  <string name="screen_onboarding_welcome_title">"Tvoje slová, až za obzor"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Vitajte v %1$s — správy, ktoré vidia ďalej."</string>
+  <string name="screen_onboarding_welcome_message">"Vitajte v %1$s — správy, ktoré vidia ďalej. Vaše správy zostanú medzi vami."</string>
+  <string name="screen_login_error_invalid_user_id">"Toto nie je platná adresa. Očakávaný formát: ‘@meno:4orizon.eu’"</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Seda aadressi ei leitud, seega ei pruugi kutse kohale jõuda."</string>
+  <string name="error_account_creation_not_possible">"Konto loomine ei ole Orizonis saadaval."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Kohandatud kõneserveri aadress"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Määra kõnedele kohandatud aadress."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (pehme)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Turvaline ja privaatne sõnumside."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Rakendust ei toetata"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s nõuab teist rakendust."</string>
+  <string name="screen_change_server_textfield_footer_register">"Orizoni kontosid loob haldaja."</string>
+  <string name="screen_login_subtitle">"Sõnumid, mis näevad kaugemale."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Ava eelmine rakendus"</string>
+  <string name="screen_missing_key_backup_step_1">"Ava seadmes eelmine rakendus"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Privaatne server."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Turvaline ja privaatne sõnumside."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Kõned ei toeta selles Androidi versioonis Bluetoothi heliseadmeid. Vali muu heliseade."</string>
+  <string name="screen_incoming_call_subtitle_android">"Sisenev Orizoni kõne"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"nt #ruumi-nimi:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Kõnet ei toetata. Palu helistajal kasutada Orizoni rakendust."</string>
+  <string name="screen_onboarding_welcome_title">"Sinu sõnad, üle silmapiiri"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Tere tulemast — %1$s, sõnumid, mis näevad kaugemale."</string>
+  <string name="screen_onboarding_welcome_message">"Tere tulemast — %1$s, sõnumid, mis näevad kaugemale. Teie sõnumid jäävad teie vahele."</string>
+  <string name="screen_login_error_invalid_user_id">"See ei ole sobiv aadress. Oodatud vorming: ‘@nimi:4orizon.eu’"</string>
+</resources>

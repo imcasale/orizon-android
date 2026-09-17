@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Diese Adresse wurde nicht gefunden, die Einladung kommt möglicherweise nicht an."</string>
+  <string name="error_account_creation_not_possible">"Die Kontoerstellung ist bei Orizon nicht verfügbar."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Eigene Adresse des Anrufservers"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Eine eigene Adresse für Anrufe festlegen."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (sanft)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Sichere, private Nachrichten."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"App nicht unterstützt"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s erfordert eine andere App."</string>
+  <string name="screen_change_server_textfield_footer_register">"Orizon-Konten werden von der Administration angelegt."</string>
+  <string name="screen_login_subtitle">"Nachrichten, die weiter blicken."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Vorherige App öffnen"</string>
+  <string name="screen_missing_key_backup_step_1">"Öffne die vorherige App auf deinem Gerät"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Ein privater Server."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Sichere, private Nachrichten."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Anrufe unterstützen in dieser Android-Version keine Bluetooth-Audiogeräte. Bitte wähle ein anderes Audiogerät."</string>
+  <string name="screen_incoming_call_subtitle_android">"Eingehender Orizon-Anruf"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"z. B. #raumname:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Anruf nicht unterstützt. Frage, ob die anrufende Person die Orizon-App nutzen kann."</string>
+  <string name="screen_onboarding_welcome_title">"Deine Worte, weit über den Horizont"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Willkommen bei %1$s — Nachrichten, die weiter blicken."</string>
+  <string name="screen_onboarding_welcome_message">"Willkommen bei %1$s — Nachrichten, die weiter blicken. Eure Nachrichten bleiben unter euch."</string>
+  <string name="screen_login_error_invalid_user_id">"Das ist keine gültige Adresse. Erwartetes Format: ‘@name:4orizon.eu’"</string>
+</resources>

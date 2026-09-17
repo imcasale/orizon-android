@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Adressen hittades inte, så inbjudan kanske inte kommer fram."</string>
+  <string name="error_account_creation_not_possible">"Det går inte att skapa konto i Orizon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Egen adress till samtalsservern"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Ange en egen adress för samtal."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (mjuk)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Säkra och privata meddelanden."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Appen stöds inte"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s kräver en annan app."</string>
+  <string name="screen_change_server_textfield_footer_register">"Orizon-konton skapas av administratören."</string>
+  <string name="screen_login_subtitle">"Meddelanden som ser längre."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Öppna den tidigare appen"</string>
+  <string name="screen_missing_key_backup_step_1">"Öppna den tidigare appen på din enhet"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"En privat server."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Säkra och privata meddelanden."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Samtal stöder inte Bluetooth-ljudenheter i den här Android-versionen. Välj en annan ljudenhet."</string>
+  <string name="screen_incoming_call_subtitle_android">"Inkommande Orizon-samtal"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"t.ex. #rumsnamn:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Samtalet stöds inte. Fråga om den som ringer kan använda Orizon-appen."</string>
+  <string name="screen_onboarding_welcome_title">"Dina ord, bortom horisonten"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Välkommen till %1$s — meddelanden som ser längre."</string>
+  <string name="screen_onboarding_welcome_message">"Välkommen till %1$s — meddelanden som ser längre. Era meddelanden stannar mellan er."</string>
+  <string name="screen_login_error_invalid_user_id">"Detta är inte en giltig adress. Förväntat format: ‘@namn:4orizon.eu’"</string>
+</resources>

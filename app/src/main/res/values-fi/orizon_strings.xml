@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Tätä osoitetta ei löytynyt, joten kutsu ei ehkä mene perille."</string>
+  <string name="error_account_creation_not_possible">"Tilin luominen ei ole käytettävissä Orizonissa."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Mukautettu puhelupalvelimen osoite"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Aseta puheluille mukautettu osoite."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (pehmeä)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Turvallista ja yksityistä viestintää."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Sovellusta ei tueta"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s vaatii toisen sovelluksen."</string>
+  <string name="screen_change_server_textfield_footer_register">"Orizon-tilit luo ylläpitäjä."</string>
+  <string name="screen_login_subtitle">"Viestintä, joka katsoo kauemmas."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Avaa edellinen sovellus"</string>
+  <string name="screen_missing_key_backup_step_1">"Avaa edellinen sovellus laitteellasi"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Yksityinen palvelin."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Turvallista ja yksityistä viestintää."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Puhelut eivät tue Bluetooth-äänilaitteita tässä Android-versiossa. Valitse toinen äänilaite."</string>
+  <string name="screen_incoming_call_subtitle_android">"Saapuva Orizon-puhelu"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"esim. #huoneen-nimi:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Puhelua ei tueta. Pyydä soittajaa käyttämään Orizon-sovellusta."</string>
+  <string name="screen_onboarding_welcome_title">"Sanasi, horisontin taakse"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Tervetuloa — %1$s, viestintä joka katsoo kauemmas."</string>
+  <string name="screen_onboarding_welcome_message">"Tervetuloa — %1$s, viestintä joka katsoo kauemmas. Viestinne pysyvät teidän välillänne."</string>
+  <string name="screen_login_error_invalid_user_id">"Tämä ei ole kelvollinen osoite. Odotettu muoto: ‘@nimi:4orizon.eu’"</string>
+</resources>

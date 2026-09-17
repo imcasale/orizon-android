@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Denne adresse blev ikke fundet, så invitationen når måske ikke frem."</string>
+  <string name="error_account_creation_not_possible">"Oprettelse af konto er ikke mulig på Orizon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Egen adresse til opkaldsserver"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Angiv en egen adresse til opkald."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (blød)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Sikre og private beskeder."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Appen understøttes ikke"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s kræver en anden app."</string>
+  <string name="screen_change_server_textfield_footer_register">"Orizon-konti oprettes af administratoren."</string>
+  <string name="screen_login_subtitle">"Beskeder, der ser længere."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Åbn den tidligere app"</string>
+  <string name="screen_missing_key_backup_step_1">"Åbn den tidligere app på din enhed"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"En privat server."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Sikre og private beskeder."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Opkald understøtter ikke Bluetooth-lydenheder i denne version af Android. Vælg en anden lydenhed."</string>
+  <string name="screen_incoming_call_subtitle_android">"Indgående Orizon-opkald"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"f.eks. #rumnavn:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Opkaldet understøttes ikke. Spørg, om den, der ringer, kan bruge Orizon-appen."</string>
+  <string name="screen_onboarding_welcome_title">"Dine ord, ud over horisonten"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Velkommen til %1$s — beskeder, der ser længere."</string>
+  <string name="screen_onboarding_welcome_message">"Velkommen til %1$s — beskeder, der ser længere. Jeres beskeder bliver mellem jer."</string>
+  <string name="screen_login_error_invalid_user_id">"Dette er ikke en gyldig adresse. Forventet format: ‘@navn:4orizon.eu’"</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Този адрес не е намерен, затова поканата може да не бъде получена."</string>
+  <string name="error_account_creation_not_possible">"Създаването на акаунт не е достъпно в Orizon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Адрес на сървъра за обаждания"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Задайте собствен адрес за обажданията."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (тих)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Сигурни и лични съобщения."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Приложението не се поддържа"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s изисква друго приложение."</string>
+  <string name="screen_change_server_textfield_footer_register">"Акаунтите в Orizon се създават от администратора."</string>
+  <string name="screen_login_subtitle">"Съобщенията, които гледат надалеч."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Отворете предишното приложение"</string>
+  <string name="screen_missing_key_backup_step_1">"Отворете предишното приложение на устройството си"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Частен сървър."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Сигурни и лични съобщения."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Обажданията не поддържат аудиоустройства с Bluetooth в тази версия на Android. Изберете друго аудиоустройство."</string>
+  <string name="screen_incoming_call_subtitle_android">"Входящо обаждане в Orizon"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"напр. #име-на-стая:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Неподдържано обаждане. Помолете обаждащия се да използва приложението Orizon."</string>
+  <string name="screen_onboarding_welcome_title">"Думите ти, отвъд хоризонта"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Добре дошли в %1$s — съобщенията, които гледат надалеч."</string>
+  <string name="screen_onboarding_welcome_message">"Добре дошли в %1$s — съобщенията, които гледат надалеч. Съобщенията ви остават само между вас."</string>
+  <string name="screen_login_error_invalid_user_id">"Това не е валиден адрес. Очакван формат: ‘@име:4orizon.eu’"</string>
+</resources>

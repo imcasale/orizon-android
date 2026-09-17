@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Ez a cím nem található, ezért a meghívó nem biztos, hogy megérkezik."</string>
+  <string name="error_account_creation_not_possible">"Fiók létrehozása nem érhető el az Orizonon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Egyéni hívásszerver-cím"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Egyéni cím beállítása a hívásokhoz."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon (lágy)"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Biztonságos, magánjellegű üzenetküldés."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"Az alkalmazás nem támogatott"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"A(z) %1$s másik alkalmazást igényel."</string>
+  <string name="screen_change_server_textfield_footer_register">"Az Orizon-fiókokat a rendszergazda hozza létre."</string>
+  <string name="screen_login_subtitle">"Az üzenetküldés, amely messzebbre lát."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Előző alkalmazás megnyitása"</string>
+  <string name="screen_missing_key_backup_step_1">"Nyisd meg az előző alkalmazást az eszközödön"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Magánszerver."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Biztonságos, magánjellegű üzenetküldés."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"A hívások nem támogatják a Bluetooth-hangeszközöket ezen az Android-verzión. Válassz másik hangeszközt."</string>
+  <string name="screen_incoming_call_subtitle_android">"Bejövő Orizon-hívás"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"pl. #szoba-neve:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Nem támogatott hívás. Kérd meg a hívót, hogy az Orizon alkalmazást használja."</string>
+  <string name="screen_onboarding_welcome_title">"A szavaid, túl a horizonton"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Üdv a(z) %1$s appban — az üzenetküldés, amely messzebbre lát."</string>
+  <string name="screen_onboarding_welcome_message">"Üdv a(z) %1$s appban — az üzenetküldés, amely messzebbre lát. Az üzeneteitek köztetek maradnak."</string>
+  <string name="screen_login_error_invalid_user_id">"Ez nem érvényes cím. Várt formátum: ‘@nev:4orizon.eu’"</string>
+</resources>
