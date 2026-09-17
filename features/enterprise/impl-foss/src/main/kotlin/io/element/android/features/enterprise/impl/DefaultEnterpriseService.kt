@@ -26,6 +26,8 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import timber.log.Timber
 
+private const val ORIZON_SERVER_NAME = "4orizon.eu"
+
 @ContributesBinding(AppScope::class)
 class DefaultEnterpriseService(
     private val temporaryMatrixClientFactory: TemporaryMatrixClientFactory,
@@ -33,8 +35,11 @@ class DefaultEnterpriseService(
 ) : EnterpriseService {
     override suspend fun isEnterpriseUser(sessionId: SessionId) = false
     override suspend fun tweakMasUrl(url: String, urlContentFetcher: ClientUrlContentFetcher) = url
-    override fun homeserverAllowList(): List<String> = emptyList()
-    override suspend fun isAllowedToConnectToHomeserver(homeserverUrl: String) = true
+    override fun homeserverAllowList(): List<String> = listOf(ORIZON_SERVER_NAME)
+
+    override suspend fun isAllowedToConnectToHomeserver(homeserverUrl: String): Boolean {
+        return homeserverUrl.contains(ORIZON_SERVER_NAME, ignoreCase = true)
+    }
     override suspend fun isElementProEnforced(serverName: String): Boolean {
         val temporaryMatrixClient = temporaryMatrixClientFactory.create(serverName).getOrElse { return false }
         return temporaryMatrixClient.use { client ->
