@@ -10,7 +10,6 @@
   <string name="screen_change_server_error_element_pro_required_title">"App not supported"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s requires a different app."</string>
   <string name="screen_change_server_textfield_footer_register">"Orizon accounts are created by the administrator."</string>
-  <string name="screen_login_subtitle">"Secure, private messaging."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Open the previous app"</string>
   <string name="screen_missing_key_backup_step_1">"Open the previous app on your device"</string>
   <string name="screen_server_confirmation_message_login_element_dot_io">"A private server."</string>
@@ -19,4 +18,9 @@
   <string name="screen_incoming_call_subtitle_android">"Incoming Orizon call"</string>
   <string name="screen_start_chat_join_room_by_address_supporting_text">"e.g. #room-name:4orizon.eu"</string>
   <string name="screen_room_timeline_legacy_call">"Unsupported call. Ask if the caller can use the Orizon app."</string>
+  <string name="screen_onboarding_welcome_title">"Your words, beyond the horizon"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Welcome to %1$s, the messenger that looks further."</string>
+  <string name="screen_onboarding_welcome_message">"Welcome to %1$s, the messenger that looks further. Your messages stay between you."</string>
+  <string name="screen_login_subtitle">"The messenger that looks further."</string>
+  <string name="screen_login_error_invalid_user_id">"This is not a valid address. Expected format: \u2018@name:4orizon.eu\u2019"</string>
 </resources>

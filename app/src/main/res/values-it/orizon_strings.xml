@@ -10,7 +10,6 @@
   <string name="screen_change_server_error_element_pro_required_title">"App non supportata"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s richiede un\'app diversa."</string>
   <string name="screen_change_server_textfield_footer_register">"Gli account Orizon vengono creati dall\'amministratore."</string>
-  <string name="screen_login_subtitle">"Messaggistica sicura e privata."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Apri l\'app precedente"</string>
   <string name="screen_missing_key_backup_step_1">"Apri l\'app precedente sul tuo dispositivo"</string>
   <string name="screen_server_confirmation_message_login_element_dot_io">"Un server privato."</string>
@@ -19,4 +18,9 @@
   <string name="screen_incoming_call_subtitle_android">"Chiamata Orizon in arrivo"</string>
   <string name="screen_start_chat_join_room_by_address_supporting_text">"es. #nome-stanza:4orizon.eu"</string>
   <string name="screen_room_timeline_legacy_call">"Chiamata non supportata. Chiedi a chi chiama di usare l\'app Orizon."</string>
+  <string name="screen_onboarding_welcome_title">"Le tue parole, oltre l\'orizzonte"</string>
+  <string name="screen_onboarding_welcome_subtitle">"Benvenuto su %1$s, la messaggistica che guarda lontano."</string>
+  <string name="screen_onboarding_welcome_message">"Benvenuto su %1$s, la messaggistica che guarda lontano. I tuoi messaggi restano tra voi."</string>
+  <string name="screen_login_subtitle">"La messaggistica che guarda lontano."</string>
+  <string name="screen_login_error_invalid_user_id">"Questo non \u00e8 un indirizzo valido. Formato atteso: \u2018@nome:4orizon.eu\u2019"</string>
 </resources>
