@@ -67,8 +67,8 @@ class DefaultEnterpriseService(
         return flowOf(SemanticColorsLightDark.default)
     }
 
-    override fun firebasePushGateway(): String? = null
-    override fun unifiedPushDefaultPushGateway(): String? = null
+    override fun firebasePushGateway(): String? = "https://chat.4orizon.eu/_matrix/push/v1/notify"
+    override fun unifiedPushDefaultPushGateway(): String? = "https://chat.4orizon.eu/_matrix/push/v1/notify"
 
     override fun bugReportUrlFlow(sessionId: SessionId?): Flow<BugReportUrl> {
         return flowOf(BugReportUrl.UseDefault)
