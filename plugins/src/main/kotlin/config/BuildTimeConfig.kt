@@ -14,11 +14,11 @@ object BuildTimeConfig {
     val METADATA_HOST_REVERSED: String? = null
     val OAUTH_CLIENT_URL_PATH: String? = "apps/android"
     val URL_WEBSITE: String? = "https://4orizon.eu"
-    val URL_LOGO: String? = null
-    val URL_COPYRIGHT: String? = null
-    val URL_ACCEPTABLE_USE: String? = null
-    val URL_PRIVACY: String? = null
-    val URL_POLICY: String? = null
+    val URL_LOGO: String? = "https://4orizon.eu"
+    val URL_COPYRIGHT: String? = "https://4orizon.eu/sorgenti"
+    val URL_ACCEPTABLE_USE: String? = "https://4orizon.eu/termini"
+    val URL_PRIVACY: String? = "https://4orizon.eu/privacy"
+    val URL_POLICY: String? = "https://4orizon.eu/termini"
     val SERVICES_MAPTILER_BASE_URL: String? = null
     val SERVICES_MAPTILER_APIKEY: String? = null
     val SERVICES_MAPTILER_LIGHT_MAPID: String? = null

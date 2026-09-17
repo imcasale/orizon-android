@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"This address can\'t be found, so the invite might not be received."</string>
+  <string name="error_account_creation_not_possible">"Account creation is not available on Orizon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Custom call server URL"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Set a custom base URL for calls."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon soft"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Secure, private messaging."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"App not supported"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s requires a different app."</string>
+  <string name="screen_change_server_textfield_footer_register">"Orizon accounts are created by the administrator."</string>
+  <string name="screen_login_subtitle">"Secure, private messaging."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Open the previous app"</string>
+  <string name="screen_missing_key_backup_step_1">"Open the previous app on your device"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"A private server."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Secure, private messaging."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Calls do not support Bluetooth audio devices on this Android version. Please select a different audio device."</string>
+  <string name="screen_incoming_call_subtitle_android">"Incoming Orizon call"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"e.g. #room-name:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Unsupported call. Ask if the caller can use the Orizon app."</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="common_invite_unknown_profile">"Questo indirizzo non esiste, quindi l\'invito potrebbe non arrivare."</string>
+  <string name="error_account_creation_not_possible">"La creazione di account non è disponibile su Orizon."</string>
+  <string name="screen_advanced_settings_element_call_base_url">"Indirizzo del server chiamate"</string>
+  <string name="screen_advanced_settings_element_call_base_url_description">"Imposta un indirizzo personalizzato per le chiamate."</string>
+  <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
+  <string name="screen_notification_settings_sound_element_fade">"Orizon leggero"</string>
+  <string name="screen_change_account_provider_matrix_org_subtitle">"Messaggistica sicura e privata."</string>
+  <string name="screen_change_server_error_element_pro_required_title">"App non supportata"</string>
+  <string name="screen_change_server_error_element_pro_required_message">"%1$s richiede un\'app diversa."</string>
+  <string name="screen_change_server_textfield_footer_register">"Gli account Orizon vengono creati dall\'amministratore."</string>
+  <string name="screen_login_subtitle">"Messaggistica sicura e privata."</string>
+  <string name="screen_missing_key_backup_open_element_classic">"Apri l\'app precedente"</string>
+  <string name="screen_missing_key_backup_step_1">"Apri l\'app precedente sul tuo dispositivo"</string>
+  <string name="screen_server_confirmation_message_login_element_dot_io">"Un server privato."</string>
+  <string name="screen_server_confirmation_message_login_matrix_dot_org">"Messaggistica sicura e privata."</string>
+  <string name="call_invalid_audio_device_bluetooth_devices_disabled">"Le chiamate non supportano i dispositivi audio Bluetooth su questa versione di Android. Scegli un altro dispositivo audio."</string>
+  <string name="screen_incoming_call_subtitle_android">"Chiamata Orizon in arrivo"</string>
+  <string name="screen_start_chat_join_room_by_address_supporting_text">"es. #nome-stanza:4orizon.eu"</string>
+  <string name="screen_room_timeline_legacy_call">"Chiamata non supportata. Chiedi a chi chiama di usare l\'app Orizon."</string>
+</resources>
