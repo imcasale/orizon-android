@@ -112,3 +112,6 @@ lint/tmp/
 .DS_Store
 
 checkouts/**
+
+# credenziali Firebase, non versionare
+app/google-services.json
