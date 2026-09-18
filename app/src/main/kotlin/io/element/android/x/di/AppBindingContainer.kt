@@ -82,7 +82,7 @@ object AppBindingContainer {
             isDebuggable = BuildConfig.DEBUG,
             buildType = buildType,
             applicationName = applicationName,
-            productionApplicationName = if (isEnterprise) applicationName else ApplicationConfig.PRODUCTION_APPLICATION_NAME,
+            productionApplicationName = applicationName,
             desktopApplicationName = if (isEnterprise) applicationName else ApplicationConfig.DESKTOP_APPLICATION_NAME,
             applicationId = BuildConfig.APPLICATION_ID,
             isEnterpriseBuild = isEnterprise,

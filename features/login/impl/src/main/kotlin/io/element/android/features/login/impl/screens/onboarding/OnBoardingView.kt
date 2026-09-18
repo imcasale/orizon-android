@@ -137,7 +137,7 @@ private fun AddFirstAccountScaffold(
 ) {
     val orizonBackground = Brush.verticalGradient(
         colors = if (ElementTheme.isLightTheme) {
-            listOf(Color.White, Color(0xFFE8E5F8), Color(0xFFBFB6EC))
+            listOf(Color.White, Color(0xFFE6EEFC), Color(0xFFB2C8F2))
         } else {
             listOf(Color(0xFF07070B), Color(0xFF0E0A2E), Color(0xFF1B1060))
         }

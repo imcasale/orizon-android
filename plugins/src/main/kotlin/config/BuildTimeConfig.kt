@@ -14,7 +14,7 @@ object BuildTimeConfig {
     val METADATA_HOST_REVERSED: String? = "eu.4orizon"
     val OAUTH_CLIENT_URL_PATH: String? = "apps/android"
     val URL_WEBSITE: String? = "https://4orizon.eu"
-    val URL_LOGO: String? = "https://4orizon.eu"
+    val URL_LOGO: String? = "https://4orizon.eu/icona.png"
     val URL_COPYRIGHT: String? = "https://4orizon.eu/sorgenti"
     val URL_ACCEPTABLE_USE: String? = "https://4orizon.eu/termini"
     val URL_PRIVACY: String? = "https://4orizon.eu/privacy"
