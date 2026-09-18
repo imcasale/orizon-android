@@ -11,7 +11,7 @@ package config
 object BuildTimeConfig {
     const val APPLICATION_ID = "eu.orizon.app"
     const val APPLICATION_NAME = "Orizon"
-    val METADATA_HOST_REVERSED: String? = null
+    val METADATA_HOST_REVERSED: String? = "eu.orizon.app"
     val OAUTH_CLIENT_URL_PATH: String? = "apps/android"
     val URL_WEBSITE: String? = "https://4orizon.eu"
     val URL_LOGO: String? = "https://4orizon.eu"

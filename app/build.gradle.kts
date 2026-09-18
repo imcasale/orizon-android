@@ -87,6 +87,14 @@ android {
             storeFile = file("./signature/debug.keystore")
             storePassword = "android"
         }
+        register("orizonRelease") {
+            keyAlias = System.getenv("ORIZON_KEY_ALIAS") ?: "orizon"
+            keyPassword = System.getenv("ORIZON_KEY_PASSWORD")
+                ?: (project.findProperty("orizon.keyPassword") as? String)
+            storeFile = file("./signature/orizon-release.jks")
+            storePassword = System.getenv("ORIZON_STORE_PASSWORD")
+                ?: (project.findProperty("orizon.storePassword") as? String)
+        }
         register("nightly") {
             keyAlias = System.getenv("ELEMENT_ANDROID_NIGHTLY_KEYID")
                 ?: project.property("signing.element.nightly.keyId") as? String?
@@ -122,7 +130,7 @@ android {
                 "login_redirect_scheme",
                 oAuthRedirectSchemeBase,
             )
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("orizonRelease")
 
             optimization {
                 enable = true

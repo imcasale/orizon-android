@@ -115,3 +115,10 @@ checkouts/**
 
 # credenziali Firebase, non versionare
 app/google-services.json
+
+# chiavi di firma Orizon, mai versionare
+/signature/*.jks
+/signature/*.keystore
+!/signature/debug.keystore
+
+/app/signature/orizon-release.jks
