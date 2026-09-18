@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Tätä osoitetta ei löytynyt, joten kutsu ei ehkä mene perille."</string>
-  <string name="error_account_creation_not_possible">"Tilin luominen ei ole käytettävissä Orizonissa."</string>
+  <string name="error_account_creation_not_possible">"Tilin luominen ei ole juuri nyt käytettävissä."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Mukautettu puhelupalvelimen osoite"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Aseta puheluille mukautettu osoite."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Turvallista ja yksityistä viestintää."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Sovellusta ei tueta"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s vaatii toisen sovelluksen."</string>
-  <string name="screen_change_server_textfield_footer_register">"Orizon-tilit luo ylläpitäjä."</string>
+  <string name="screen_change_server_textfield_footer_register">"Luo Orizon-tilisi maksutta."</string>
   <string name="screen_login_subtitle">"Viestintä, joka katsoo kauemmas."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Avaa edellinen sovellus"</string>
   <string name="screen_missing_key_backup_step_1">"Avaa edellinen sovellus laitteellasi"</string>

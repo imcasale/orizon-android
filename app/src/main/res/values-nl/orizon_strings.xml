@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Dit adres is niet gevonden, dus de uitnodiging komt mogelijk niet aan."</string>
-  <string name="error_account_creation_not_possible">"Een account aanmaken is niet mogelijk op Orizon."</string>
+  <string name="error_account_creation_not_possible">"Een account aanmaken is op dit moment niet mogelijk."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Eigen adres van de gespreksserver"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Stel een eigen adres in voor gesprekken."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Veilig en privé berichten sturen."</string>
   <string name="screen_change_server_error_element_pro_required_title">"App niet ondersteund"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s vereist een andere app."</string>
-  <string name="screen_change_server_textfield_footer_register">"Orizon-accounts worden door de beheerder aangemaakt."</string>
+  <string name="screen_change_server_textfield_footer_register">"Maak gratis je Orizon-account aan."</string>
   <string name="screen_login_subtitle">"Berichten die verder kijken."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Open de vorige app"</string>
   <string name="screen_missing_key_backup_step_1">"Open de vorige app op je apparaat"</string>

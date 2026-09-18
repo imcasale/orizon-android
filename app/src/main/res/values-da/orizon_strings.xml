@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Denne adresse blev ikke fundet, så invitationen når måske ikke frem."</string>
-  <string name="error_account_creation_not_possible">"Oprettelse af konto er ikke mulig på Orizon."</string>
+  <string name="error_account_creation_not_possible">"Oprettelse af konto er ikke mulig lige nu."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Egen adresse til opkaldsserver"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Angiv en egen adresse til opkald."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Sikre og private beskeder."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Appen understøttes ikke"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s kræver en anden app."</string>
-  <string name="screen_change_server_textfield_footer_register">"Orizon-konti oprettes af administratoren."</string>
+  <string name="screen_change_server_textfield_footer_register">"Opret din Orizon-konto gratis."</string>
   <string name="screen_login_subtitle">"Beskeder, der ser længere."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Åbn den tidligere app"</string>
   <string name="screen_missing_key_backup_step_1">"Åbn den tidligere app på din enhed"</string>

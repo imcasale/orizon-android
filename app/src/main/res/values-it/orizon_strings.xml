@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Questo indirizzo non esiste, quindi l\'invito potrebbe non arrivare."</string>
-  <string name="error_account_creation_not_possible">"La creazione di account non è disponibile su Orizon."</string>
+  <string name="error_account_creation_not_possible">"La creazione di account non è disponibile al momento."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Indirizzo del server chiamate"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Imposta un indirizzo personalizzato per le chiamate."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Messaggistica sicura e privata."</string>
   <string name="screen_change_server_error_element_pro_required_title">"App non supportata"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s richiede un\'app diversa."</string>
-  <string name="screen_change_server_textfield_footer_register">"Gli account Orizon vengono creati dall\'amministratore."</string>
+  <string name="screen_change_server_textfield_footer_register">"Crea gratuitamente il tuo account Orizon."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Apri l\'app precedente"</string>
   <string name="screen_missing_key_backup_step_1">"Apri l\'app precedente sul tuo dispositivo"</string>
   <string name="screen_server_confirmation_message_login_element_dot_io">"Un server privato."</string>

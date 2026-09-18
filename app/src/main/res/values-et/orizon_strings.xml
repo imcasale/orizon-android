@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Seda aadressi ei leitud, seega ei pruugi kutse kohale jõuda."</string>
-  <string name="error_account_creation_not_possible">"Konto loomine ei ole Orizonis saadaval."</string>
+  <string name="error_account_creation_not_possible">"Konto loomine ei ole praegu võimalik."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Kohandatud kõneserveri aadress"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Määra kõnedele kohandatud aadress."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Turvaline ja privaatne sõnumside."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Rakendust ei toetata"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s nõuab teist rakendust."</string>
-  <string name="screen_change_server_textfield_footer_register">"Orizoni kontosid loob haldaja."</string>
+  <string name="screen_change_server_textfield_footer_register">"Loo tasuta oma Orizoni konto."</string>
   <string name="screen_login_subtitle">"Sõnumid, mis näevad kaugemale."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Ava eelmine rakendus"</string>
   <string name="screen_missing_key_backup_step_1">"Ava seadmes eelmine rakendus"</string>

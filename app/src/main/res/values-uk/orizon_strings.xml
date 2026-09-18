@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Цю адресу не знайдено, тож запрошення може не надійти."</string>
-  <string name="error_account_creation_not_possible">"Створення облікових записів у Orizon недоступне."</string>
+  <string name="error_account_creation_not_possible">"Створення облікового запису наразі недоступне."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Власна адреса сервера дзвінків"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Задайте власну адресу для дзвінків."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Безпечні та приватні повідомлення."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Застосунок не підтримується"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s потребує іншого застосунку."</string>
-  <string name="screen_change_server_textfield_footer_register">"Облікові записи Orizon створює адміністратор."</string>
+  <string name="screen_change_server_textfield_footer_register">"Створіть обліковий запис Orizon безкоштовно."</string>
   <string name="screen_login_subtitle">"Повідомлення, що дивляться далі."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Відкрити попередній застосунок"</string>
   <string name="screen_missing_key_backup_step_1">"Відкрийте попередній застосунок на своєму пристрої"</string>

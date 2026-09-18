@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Αυτή η διεύθυνση δεν βρέθηκε, οπότε η πρόσκληση μπορεί να μην παραληφθεί."</string>
-  <string name="error_account_creation_not_possible">"Η δημιουργία λογαριασμού δεν είναι διαθέσιμη στο Orizon."</string>
+  <string name="error_account_creation_not_possible">"Η δημιουργία λογαριασμού δεν είναι διαθέσιμη αυτή τη στιγμή."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Προσαρμοσμένη διεύθυνση διακομιστή κλήσεων"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Ορίστε προσαρμοσμένη διεύθυνση για τις κλήσεις."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Ασφαλή και ιδιωτικά μηνύματα."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Η εφαρμογή δεν υποστηρίζεται"</string>
   <string name="screen_change_server_error_element_pro_required_message">"Το %1$s απαιτεί διαφορετική εφαρμογή."</string>
-  <string name="screen_change_server_textfield_footer_register">"Οι λογαριασμοί Orizon δημιουργούνται από τον διαχειριστή."</string>
+  <string name="screen_change_server_textfield_footer_register">"Δημιουργήστε δωρεάν τον λογαριασμό σας Orizon."</string>
   <string name="screen_login_subtitle">"Μηνύματα που βλέπουν μακριά."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Άνοιγμα προηγούμενης εφαρμογής"</string>
   <string name="screen_missing_key_backup_step_1">"Ανοίξτε την προηγούμενη εφαρμογή στη συσκευή σας"</string>

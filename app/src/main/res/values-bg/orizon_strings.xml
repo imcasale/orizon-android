@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Този адрес не е намерен, затова поканата може да не бъде получена."</string>
-  <string name="error_account_creation_not_possible">"Създаването на акаунт не е достъпно в Orizon."</string>
+  <string name="error_account_creation_not_possible">"Създаването на акаунт не е възможно в момента."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Адрес на сървъра за обаждания"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Задайте собствен адрес за обажданията."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Сигурни и лични съобщения."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Приложението не се поддържа"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s изисква друго приложение."</string>
-  <string name="screen_change_server_textfield_footer_register">"Акаунтите в Orizon се създават от администратора."</string>
+  <string name="screen_change_server_textfield_footer_register">"Създайте безплатно своя акаунт в Orizon."</string>
   <string name="screen_login_subtitle">"Съобщенията, които гледат надалеч."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Отворете предишното приложение"</string>
   <string name="screen_missing_key_backup_step_1">"Отворете предишното приложение на устройството си"</string>

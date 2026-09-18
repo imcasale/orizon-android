@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Adressen hittades inte, så inbjudan kanske inte kommer fram."</string>
-  <string name="error_account_creation_not_possible">"Det går inte att skapa konto i Orizon."</string>
+  <string name="error_account_creation_not_possible">"Det går inte att skapa konto just nu."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Egen adress till samtalsservern"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Ange en egen adress för samtal."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Säkra och privata meddelanden."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Appen stöds inte"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s kräver en annan app."</string>
-  <string name="screen_change_server_textfield_footer_register">"Orizon-konton skapas av administratören."</string>
+  <string name="screen_change_server_textfield_footer_register">"Skapa ditt Orizon-konto gratis."</string>
   <string name="screen_login_subtitle">"Meddelanden som ser längre."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Öppna den tidigare appen"</string>
   <string name="screen_missing_key_backup_step_1">"Öppna den tidigare appen på din enhet"</string>

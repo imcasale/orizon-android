@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Ez a cím nem található, ezért a meghívó nem biztos, hogy megérkezik."</string>
-  <string name="error_account_creation_not_possible">"Fiók létrehozása nem érhető el az Orizonon."</string>
+  <string name="error_account_creation_not_possible">"A fiók létrehozása jelenleg nem érhető el."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Egyéni hívásszerver-cím"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Egyéni cím beállítása a hívásokhoz."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Biztonságos, magánjellegű üzenetküldés."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Az alkalmazás nem támogatott"</string>
   <string name="screen_change_server_error_element_pro_required_message">"A(z) %1$s másik alkalmazást igényel."</string>
-  <string name="screen_change_server_textfield_footer_register">"Az Orizon-fiókokat a rendszergazda hozza létre."</string>
+  <string name="screen_change_server_textfield_footer_register">"Hozd létre ingyenesen az Orizon-fiókodat."</string>
   <string name="screen_login_subtitle">"Az üzenetküldés, amely messzebbre lát."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Előző alkalmazás megnyitása"</string>
   <string name="screen_missing_key_backup_step_1">"Nyisd meg az előző alkalmazást az eszközödön"</string>

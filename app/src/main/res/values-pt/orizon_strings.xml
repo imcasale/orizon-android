@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Este endereço não foi encontrado, por isso o convite pode não chegar."</string>
-  <string name="error_account_creation_not_possible">"A criação de contas não está disponível no Orizon."</string>
+  <string name="error_account_creation_not_possible">"A criação de contas não está disponível neste momento."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Endereço personalizado do servidor de chamadas"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Define um endereço personalizado para as chamadas."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Mensagens seguras e privadas."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Aplicação não suportada"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s requer outra aplicação."</string>
-  <string name="screen_change_server_textfield_footer_register">"As contas Orizon são criadas pelo administrador."</string>
+  <string name="screen_change_server_textfield_footer_register">"Cria gratuitamente a tua conta Orizon."</string>
   <string name="screen_login_subtitle">"Mensagens que veem mais longe."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Abrir a aplicação anterior"</string>
   <string name="screen_missing_key_backup_step_1">"Abre a aplicação anterior no teu dispositivo"</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Ova adresa nije pronađena pa pozivnica možda neće stići."</string>
-  <string name="error_account_creation_not_possible">"Otvaranje računa nije dostupno na Orizonu."</string>
+  <string name="error_account_creation_not_possible">"Otvaranje računa trenutačno nije dostupno."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Prilagođena adresa poslužitelja za pozive"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Postavi prilagođenu adresu za pozive."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Sigurne i privatne poruke."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Aplikacija nije podržana"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s zahtijeva drugu aplikaciju."</string>
-  <string name="screen_change_server_textfield_footer_register">"Orizon račune otvara administrator."</string>
+  <string name="screen_change_server_textfield_footer_register">"Besplatno otvorite svoj Orizon račun."</string>
   <string name="screen_login_subtitle">"Poruke koje gledaju dalje."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Otvori prethodnu aplikaciju"</string>
   <string name="screen_missing_key_backup_step_1">"Otvorite prethodnu aplikaciju na uređaju"</string>

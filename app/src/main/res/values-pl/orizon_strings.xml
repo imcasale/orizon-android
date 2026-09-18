@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Nie znaleziono tego adresu, więc zaproszenie może nie dotrzeć."</string>
-  <string name="error_account_creation_not_possible">"Zakładanie kont nie jest dostępne w Orizon."</string>
+  <string name="error_account_creation_not_possible">"Zakładanie konta jest obecnie niedostępne."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Własny adres serwera połączeń"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Ustaw własny adres dla połączeń."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Bezpieczne i prywatne wiadomości."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Aplikacja nieobsługiwana"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s wymaga innej aplikacji."</string>
-  <string name="screen_change_server_textfield_footer_register">"Konta Orizon zakłada administrator."</string>
+  <string name="screen_change_server_textfield_footer_register">"Załóż bezpłatnie konto Orizon."</string>
   <string name="screen_login_subtitle">"Wiadomości, które sięgają dalej."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Otwórz poprzednią aplikację"</string>
   <string name="screen_missing_key_backup_step_1">"Otwórz poprzednią aplikację na swoim urządzeniu"</string>

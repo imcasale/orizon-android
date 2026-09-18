@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="common_invite_unknown_profile">"Táto adresa sa nenašla, pozvánka preto nemusí doraziť."</string>
-  <string name="error_account_creation_not_possible">"Vytváranie účtov nie je v Orizone dostupné."</string>
+  <string name="error_account_creation_not_possible">"Vytvorenie účtu momentálne nie je dostupné."</string>
   <string name="screen_advanced_settings_element_call_base_url">"Vlastná adresa servera pre hovory"</string>
   <string name="screen_advanced_settings_element_call_base_url_description">"Nastavte vlastnú adresu pre hovory."</string>
   <string name="screen_notification_settings_sound_element_default">"Orizon"</string>
@@ -9,7 +9,7 @@
   <string name="screen_change_account_provider_matrix_org_subtitle">"Bezpečné a súkromné správy."</string>
   <string name="screen_change_server_error_element_pro_required_title">"Aplikácia nie je podporovaná"</string>
   <string name="screen_change_server_error_element_pro_required_message">"%1$s vyžaduje inú aplikáciu."</string>
-  <string name="screen_change_server_textfield_footer_register">"Účty Orizon vytvára správca."</string>
+  <string name="screen_change_server_textfield_footer_register">"Vytvorte si zadarmo účet Orizon."</string>
   <string name="screen_login_subtitle">"Správy, ktoré vidia ďalej."</string>
   <string name="screen_missing_key_backup_open_element_classic">"Otvoriť predchádzajúcu aplikáciu"</string>
   <string name="screen_missing_key_backup_step_1">"Otvorte v zariadení predchádzajúcu aplikáciu"</string>
