@@ -31,7 +31,7 @@ object BuildTimeConfig {
     val BUG_REPORT_APP_NAME: String? = null
     const val PUSH_CONFIG_INCLUDE_FIREBASE: Boolean = true
     const val PUSH_CONFIG_INCLUDE_UNIFIED_PUSH: Boolean = true
-    val PUSHER_APP_ID_RELEASE: String? = null
-    val PUSHER_APP_ID_DEBUG: String? = null
-    val PUSHER_APP_ID_NIGHTLY: String? = null
+    val PUSHER_APP_ID_RELEASE: String? = "eu.orizon.app"
+    val PUSHER_APP_ID_DEBUG: String? = "eu.orizon.app.debug"
+    val PUSHER_APP_ID_NIGHTLY: String? = "eu.orizon.app"
 }
