@@ -9,6 +9,7 @@
 package io.element.android.features.login.impl.screens.onboarding
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -25,6 +26,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterHorizontally
 import androidx.compose.ui.BiasAlignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
@@ -132,20 +135,21 @@ private fun AddFirstAccountScaffold(
     onDeveloperSettingsClick: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
+    val orizonBackground = Brush.verticalGradient(
+        colors = if (ElementTheme.isLightTheme) {
+            listOf(Color.White, Color(0xFFE8E5F8), Color(0xFFBFB6EC))
+        } else {
+            listOf(Color(0xFF07070B), Color(0xFF0E0A2E), Color(0xFF1B1060))
+        }
+    )
     OnBoardingPage(
-        modifier = modifier,
-        renderBackground = state.onBoardingLogoResId == null,
+        modifier = modifier.background(orizonBackground),
+        renderBackground = false,
         content = {
             Box(
                 modifier = Modifier.fillMaxSize(),
             ) {
-                if (state.onBoardingLogoResId != null) {
-                    OnBoardingLogo(
-                        onBoardingLogoResId = state.onBoardingLogoResId,
-                    )
-                } else {
-                    OnBoardingContent(state = state)
-                }
+                OnBoardingContent(state = state)
                 if (state.showDeveloperSettings) {
                     IconButton(
                         onClick = onDeveloperSettingsClick,
@@ -209,10 +213,17 @@ private fun OnBoardingContent(state: OnBoardingState) {
                 verticalBias = -0.4f
             )
         ) {
-            ElementLogoAtom(
-                size = ElementLogoAtomSize.Large,
-                modifier = Modifier.padding(top = ElementLogoAtomSize.Large.shadowRadius / 2)
-            )
+            if (state.onBoardingLogoResId != null) {
+                Image(
+                    painter = painterResource(id = state.onBoardingLogoResId),
+                    contentDescription = null,
+                )
+            } else {
+                ElementLogoAtom(
+                    size = ElementLogoAtomSize.Large,
+                    modifier = Modifier.padding(top = ElementLogoAtomSize.Large.shadowRadius / 2)
+                )
+            }
         }
         Box(
             modifier = Modifier.fillMaxSize(),
