@@ -14,6 +14,8 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" tools:node="remove" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" tools:node="remove" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" tools:node="remove" />
+    <!-- Orizon: chiamate non attive, nessun servizio microfono in background -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" tools:node="remove" />
 
     <application
         android:name=".ElementXApplication"
