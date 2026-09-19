@@ -19,6 +19,14 @@ import io.element.android.libraries.matrix.api.permalink.PermalinkBuilderError
 import org.matrix.rustcomponents.sdk.matrixToRoomAliasPermalink
 import org.matrix.rustcomponents.sdk.matrixToUserPermalink
 
+private fun String.toOrizonPermalink(): String = when {
+    startsWith("https://matrix.to/#/@") ->
+        replace("https://matrix.to/#/", "https://app.4orizon.eu/#/user/")
+    startsWith("https://matrix.to/#/#") ->
+        replace("https://matrix.to/#/", "https://app.4orizon.eu/#/room/")
+    else -> this
+}
+
 @ContributesBinding(AppScope::class)
 class DefaultPermalinkBuilder : PermalinkBuilder {
     override fun permalinkForUser(userId: UserId): Result<String> {
@@ -26,7 +34,7 @@ class DefaultPermalinkBuilder : PermalinkBuilder {
             return Result.failure(PermalinkBuilderError.InvalidData)
         }
         return runCatchingExceptions {
-            matrixToUserPermalink(userId.value)
+            matrixToUserPermalink(userId.value).toOrizonPermalink()
         }
     }
 
@@ -35,7 +43,7 @@ class DefaultPermalinkBuilder : PermalinkBuilder {
             return Result.failure(PermalinkBuilderError.InvalidData)
         }
         return runCatchingExceptions {
-            matrixToRoomAliasPermalink(roomAlias.value)
+            matrixToRoomAliasPermalink(roomAlias.value).toOrizonPermalink()
         }
     }
 }
