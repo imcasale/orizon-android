@@ -591,6 +591,8 @@ internal fun VideoQualitySelectorDialogPreview() {
 fun VideoCompressionPreset.title(): String {
     return stringResource(
         when (this) {
+            VideoCompressionPreset.AUTOMATIC -> CommonStrings.common_video_quality_automatic
+            VideoCompressionPreset.ORIGINAL -> CommonStrings.common_video_quality_original
             VideoCompressionPreset.STANDARD -> CommonStrings.common_video_quality_standard
             VideoCompressionPreset.HIGH -> CommonStrings.common_video_quality_high
             VideoCompressionPreset.LOW -> CommonStrings.common_video_quality_low
@@ -602,6 +604,8 @@ fun VideoCompressionPreset.title(): String {
 fun VideoCompressionPreset.subtitle(): String {
     return stringResource(
         when (this) {
+            VideoCompressionPreset.AUTOMATIC -> CommonStrings.common_video_quality_automatic_description
+            VideoCompressionPreset.ORIGINAL -> CommonStrings.common_video_quality_original_description
             VideoCompressionPreset.STANDARD -> CommonStrings.common_video_quality_standard_description
             VideoCompressionPreset.HIGH -> CommonStrings.common_video_quality_high_description
             VideoCompressionPreset.LOW -> CommonStrings.common_video_quality_low_description

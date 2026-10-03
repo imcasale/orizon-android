@@ -10,6 +10,8 @@ package io.element.android.libraries.mediaupload.impl
 
 import android.content.Context
 import android.graphics.BitmapFactory
+import android.media.MediaExtractor
+import android.media.MediaFormat
 import android.media.MediaMetadataRetriever
 import android.net.Uri
 import androidx.exifinterface.media.ExifInterface
@@ -258,8 +260,29 @@ class AndroidMediaPreProcessor(
 
     private suspend fun processVideo(uri: Uri, mimeType: String?, videoCompressionPreset: VideoCompressionPreset): MediaUploadInfo {
         Timber.d("Processing video ${uri.path.orEmpty().hash()}")
+        // Orizon: original quality. The video is sent as recorded, without re-encoding, when it is H.264,
+        // which every device can play. Other codecs (e.g. HEVC) are re-encoded in high quality instead.
+        if (videoCompressionPreset == VideoCompressionPreset.ORIGINAL && isWidelyPlayableVideo(uri)) {
+            val originalFile = runCatchingExceptions { copyToTmpFile(uri) }
+                .onFailure { Timber.e(it, "Failed to copy original video: $uri") }
+                .getOrNull()
+            if (originalFile != null) {
+                val thumbnailInfo = thumbnailFactory.createVideoThumbnail(originalFile)
+                val videoInfo = extractVideoMetadata(originalFile, mimeType, thumbnailInfo)
+                return MediaUploadInfo.Video(
+                    file = originalFile,
+                    videoInfo = videoInfo,
+                    thumbnailFile = thumbnailInfo?.file
+                )
+            }
+        }
+        val compressionPreset = when (videoCompressionPreset) {
+            VideoCompressionPreset.AUTOMATIC,
+            VideoCompressionPreset.ORIGINAL -> VideoCompressionPreset.HIGH
+            else -> videoCompressionPreset
+        }
         val resultFile = runCatchingExceptions {
-            videoCompressor.compress(uri, videoCompressionPreset)
+            videoCompressor.compress(uri, compressionPreset)
                 .onEach {
                     if (it is VideoTranscodingEvent.Progress) {
                         Timber.d("Video compression progress: ${it.value}%")
@@ -288,6 +311,24 @@ class AndroidMediaPreProcessor(
             Timber.d("Could not transcode video ${uri.path.orEmpty().hash()}, sending original file as plain file")
             // If the video could not be compressed, just use the original one, but send it as a file
             return processFile(uri, MimeTypes.OctetStream)
+        }
+    }
+
+    /**
+     * Orizon: true when every video track of the file is H.264, so it can be sent without re-encoding.
+     */
+    private fun isWidelyPlayableVideo(uri: Uri): Boolean {
+        val extractor = MediaExtractor()
+        return try {
+            tryOrNull(onException = { Timber.w(it, "Could not read the video codec") }) {
+                extractor.setDataSource(context, uri, null)
+                val videoMimeTypes = (0 until extractor.trackCount)
+                    .mapNotNull { extractor.getTrackFormat(it).getString(MediaFormat.KEY_MIME) }
+                    .filter { it.startsWith("video/") }
+                videoMimeTypes.isNotEmpty() && videoMimeTypes.all { it == MediaFormat.MIMETYPE_VIDEO_AVC }
+            } ?: false
+        } finally {
+            extractor.release()
         }
     }
 

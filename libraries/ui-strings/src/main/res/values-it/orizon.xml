@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Orizon: testi per la qualità automatica e originale di foto e video. -->
+<resources>
+    <string name="common_video_quality_automatic">"Automatica"</string>
+    <string name="common_video_quality_automatic_description">"Qualità originale su Wi-Fi, ridotta su rete mobile o connessioni lente"</string>
+    <string name="common_video_quality_original">"Qualità originale"</string>
+    <string name="common_video_quality_original_description">"Nessuna compressione: qualità piena, file più grande"</string>
+</resources>

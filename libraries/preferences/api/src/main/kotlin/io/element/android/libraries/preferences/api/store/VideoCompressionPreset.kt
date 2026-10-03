@@ -12,6 +12,12 @@ package io.element.android.libraries.preferences.api.store
  * Video compression presets to use when processing videos before uploading them.
  */
 enum class VideoCompressionPreset {
+    /** Orizon: chosen automatically from the current network (original on fast unmetered networks). */
+    AUTOMATIC,
+
+    /** Orizon: no re-encoding, the video is sent as recorded (when it is H.264). */
+    ORIGINAL,
+
     /** High quality compression, suitable for high-resolution videos. */
     HIGH,
 

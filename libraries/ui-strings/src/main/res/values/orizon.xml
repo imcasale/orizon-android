@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Orizon: testi per la qualità automatica e originale di foto e video. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="common_video_quality_automatic">"Automatic"</string>
+    <string name="common_video_quality_automatic_description">"Original quality on Wi-Fi, reduced on mobile data or slow connections"</string>
+    <string name="common_video_quality_original">"Original quality"</string>
+    <string name="common_video_quality_original_description">"No compression: full quality, largest file"</string>
+</resources>

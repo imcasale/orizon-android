@@ -436,7 +436,7 @@ class AttachmentsPreviewPresenter(
             // If we're sending the media as a file, we can skip image compression and we should select the highest video compression preset that still fits
             // the upload limit (if the estimations are available)
             val videoCompressionPreset = videoCompressionPresetSelector.selectBestVideoPreset(
-                expectedVideoPreset = VideoCompressionPreset.HIGH,
+                expectedVideoPreset = VideoCompressionPreset.ORIGINAL,
                 videoSizeEstimations = mediaOptimizationSelectorState.videoSizeEstimations,
             ).dataOrNull() ?: VideoCompressionPreset.HIGH
 

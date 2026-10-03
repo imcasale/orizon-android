@@ -18,6 +18,8 @@ data class MediaOptimizationConfig(
 
 fun VideoCompressionPreset.compressorHelper(): VideoCompressorHelper = when (this) {
     VideoCompressionPreset.STANDARD -> VideoCompressorHelper(1280)
+    VideoCompressionPreset.AUTOMATIC,
+    VideoCompressionPreset.ORIGINAL,
     VideoCompressionPreset.HIGH -> VideoCompressorHelper(1920)
     VideoCompressionPreset.LOW -> VideoCompressorHelper(640)
 }

@@ -91,8 +91,8 @@ class DefaultSessionPreferencesStore(
     override fun doesOptimizeImages(): Flow<Boolean> = get(compressImages) { true }
 
     override suspend fun setVideoCompressionPreset(preset: VideoCompressionPreset) = update(compressMediaPreset, preset.name)
-    override fun getVideoCompressionPreset(): Flow<VideoCompressionPreset> = get(compressMediaPreset) { VideoCompressionPreset.STANDARD.name }
-        .map { tryOrNull { VideoCompressionPreset.valueOf(it) } ?: VideoCompressionPreset.STANDARD }
+    override fun getVideoCompressionPreset(): Flow<VideoCompressionPreset> = get(compressMediaPreset) { VideoCompressionPreset.AUTOMATIC.name }
+        .map { tryOrNull { VideoCompressionPreset.valueOf(it) } ?: VideoCompressionPreset.AUTOMATIC }
 
     override suspend fun clear() {
         dataStoreFile.safeDelete()

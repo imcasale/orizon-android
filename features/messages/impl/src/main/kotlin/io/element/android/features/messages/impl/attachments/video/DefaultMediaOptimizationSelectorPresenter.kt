@@ -107,11 +107,18 @@ class DefaultMediaOptimizationSelectorPresenter(
                 size to duration
             }
 
+            // Orizon: the original quality uses the real size of the file.
+            val originalFileSize = localMedia.info.fileSize?.takeIf { it > 0 }
             val sizeEstimations = VideoCompressionPreset.entries
+                .filter { it != VideoCompressionPreset.AUTOMATIC }
                 .map { preset ->
                     val bitRateAsBytes = preset.compressorHelper().calculateOptimalBitrate(videoDimensions, 30) / 8f
                     val durationInSeconds = duration.inWholeSeconds.toFloat()
-                    val calculatedSize = (bitRateAsBytes * durationInSeconds * 1.1f).roundToLong() // Adding 10% overhead for safety
+                    val calculatedSize = if (preset == VideoCompressionPreset.ORIGINAL && originalFileSize != null) {
+                        originalFileSize
+                    } else {
+                        (bitRateAsBytes * durationInSeconds * 1.1f).roundToLong() // Adding 10% overhead for safety
+                    }
                     VideoUploadEstimation(
                         preset = preset,
                         sizeInBytes = calculatedSize,
@@ -136,7 +143,7 @@ class DefaultMediaOptimizationSelectorPresenter(
                 // video" path in the pre-processor right now).
                 selectedImageOptimization = AsyncData.Success(false)
                 selectedVideoOptimizationPreset = videoCompressionPresetSelector.selectBestVideoPreset(
-                    expectedVideoPreset = VideoCompressionPreset.HIGH,
+                    expectedVideoPreset = VideoCompressionPreset.ORIGINAL,
                     videoSizeEstimations = videoSizeEstimations,
                 )
                 return@LaunchedEffect

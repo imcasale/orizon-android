@@ -177,6 +177,8 @@ fun AdvancedSettingsView(
                     supportingContent = {
                         val description = stringResource(id = R.string.screen_advanced_settings_optimise_video_upload_quality_description)
                         val quality = when (state.mediaOptimizationState.videoPreset) {
+                            VideoCompressionPreset.AUTOMATIC -> stringResource(id = CommonStrings.common_video_quality_automatic)
+                            VideoCompressionPreset.ORIGINAL -> stringResource(id = CommonStrings.common_video_quality_original)
                             VideoCompressionPreset.LOW -> stringResource(id = R.string.screen_advanced_settings_optimise_video_upload_quality_low)
                             VideoCompressionPreset.STANDARD -> stringResource(id = R.string.screen_advanced_settings_optimise_video_upload_quality_standard)
                             VideoCompressionPreset.HIGH -> stringResource(id = R.string.screen_advanced_settings_optimise_video_upload_quality_high)
@@ -237,11 +239,15 @@ private fun VideoQualitySelectorDialog(
                 contentType = preset,
             ) {
                 val title = when (preset) {
+                    VideoCompressionPreset.AUTOMATIC -> stringResource(CommonStrings.common_video_quality_automatic)
+                    VideoCompressionPreset.ORIGINAL -> stringResource(CommonStrings.common_video_quality_original)
                     VideoCompressionPreset.LOW -> stringResource(R.string.screen_advanced_settings_optimise_video_upload_quality_low)
                     VideoCompressionPreset.STANDARD -> stringResource(R.string.screen_advanced_settings_optimise_video_upload_quality_standard)
                     VideoCompressionPreset.HIGH -> stringResource(R.string.screen_advanced_settings_optimise_video_upload_quality_high)
                 }
                 val subtitle = when (preset) {
+                    VideoCompressionPreset.AUTOMATIC -> stringResource(CommonStrings.common_video_quality_automatic_description)
+                    VideoCompressionPreset.ORIGINAL -> stringResource(CommonStrings.common_video_quality_original_description)
                     VideoCompressionPreset.LOW -> stringResource(CommonStrings.common_video_quality_low_description)
                     VideoCompressionPreset.STANDARD -> stringResource(CommonStrings.common_video_quality_standard_description)
                     VideoCompressionPreset.HIGH -> stringResource(CommonStrings.common_video_quality_high_description)
